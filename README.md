@@ -71,8 +71,14 @@ crontab -e
 30 7 * * * /usr/bin/python3 /home/ozon_reklama.py (размещается внутри cron)
 
 ### Установка библиотек и запуск скриптов (делаем из папки /home):
-python3 -m pip install -r requirements.txt
+ls (посмотреть файлы в текущей папке)
+
+python3 -m pip install -r requirements.txt (установка библиотек)
 
 python3 wb_reklama.py
 
 python3 ozon_reklama.py
+
+nano ozon_client_settings.json (правки настроек ozon)
+
+nano wb_client_settings.json (правки настроек wb)
