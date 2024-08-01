@@ -1,8 +1,8 @@
 # ozon_wb_clickhouse
 
 ### Получаем нужную версию Clichouse:
-wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stable/clickhouse-common-static_24.6.2.17_amd64.deb 
-wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stable/clickhouse-server_24.6.2.17_amd64.deb 
+wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stable/clickhouse-common-static_24.6.2.17_amd64.deb
+wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stable/clickhouse-server_24.6.2.17_amd64.deb
 wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stable/clickhouse-client_24.6.2.17_amd64.deb
 
 ### Устанавливаем Clichouse:
