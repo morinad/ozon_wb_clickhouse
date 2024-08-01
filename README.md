@@ -7,7 +7,7 @@ wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stabl
 
 wget https://github.com/ClickHouse/ClickHouse/releases/download/v24.6.2.17-stable/clickhouse-client_24.6.2.17_amd64.deb
 
-### Устанавливаем Clichouse:
+### Устанавливаем Clickhouse:
 sudo apt upgrade
 
 sudo apt upgrade -y
@@ -25,7 +25,7 @@ sudo dpkg -i clickhouse-server_24.6.2.17_amd64.deb
 sudo dpkg -i clickhouse-client_24.6.2.17_amd64.deb
 
 
-### Запускаем Clichouse:
+### Запускаем Clickhouse:
 sudo systemctl start clickhouse-server
 
 sudo systemctl enable clickhouse-server
