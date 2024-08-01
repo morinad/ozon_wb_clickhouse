@@ -82,3 +82,10 @@ python3 ozon_reklama.py
 nano ozon_client_settings.json (правки настроек ozon)
 
 nano wb_client_settings.json (правки настроек wb)
+
+### Несколько вспомогательных команд:
+ПРОВЕРКА РАБОТЫ СКРИПТОВ PYTHON: ps aux | grep python
+
+ЗАПУСК БЕЗ ПРИВЯЗКИ К ТЕРМИНАЛУ ТЕКУЩЕМУ: nohup python3 ozon_reklama.py &
+
+ОСТАНОВКА СКРИПТА: pkill -f wb_reklama.py
